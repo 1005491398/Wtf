@@ -24,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		603EF2AD1BD5D9E900B5DEED /* Vec2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vec2.h; sourceTree = "<group>"; };
+		603EF2AE1BD5DB7700B5DEED /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
 		B35BDF1F1BD51E2500F783D0 /* Drop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Drop.cpp; sourceTree = "<group>"; };
 		B35BDF201BD51E2500F783D0 /* Drop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drop.h; sourceTree = "<group>"; };
 		B3D1D41B1B3D347E0003C530 /* Wtf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Wtf; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,8 @@
 				B3D1D41E1B3D347E0003C530 /* main.cpp */,
 				B35BDF1F1BD51E2500F783D0 /* Drop.cpp */,
 				B35BDF201BD51E2500F783D0 /* Drop.h */,
+				603EF2AD1BD5D9E900B5DEED /* Vec2.h */,
+				603EF2AE1BD5DB7700B5DEED /* Const.h */,
 			);
 			path = Wtf;
 			sourceTree = "<group>";

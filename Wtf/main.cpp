@@ -12,29 +12,12 @@
 #include <list>
 #include <time.h>
 #include <cstdio>
-#define CCLOG(format, ...)      printf(format, ##__VA_ARGS__)
+#include "Vec2.h"
+#include "Const.h"
 
 using namespace std;
 
-const int xCount = 9;
-const int yCount = 9;
 void printMap(int Map[xCount][yCount]);
-
-class Vec2
-{
-private:
-public:
-    int x,y;
-    Vec2(){};
-    Vec2(int x,int y):x(x),y(y){}
-    ~Vec2(){}
-    void toString() const
-    {
-        cout<<"Point(x:"<<x<<", y:"<<y<<")"<<endl;
-    }
-};
-
-std::vector<Vec2> points;
 
 int Map[xCount][yCount] = {
     {0,0,5,5,5,5,5,0,0},
@@ -47,6 +30,9 @@ int Map[xCount][yCount] = {
     {6,0,3,2,1,6,4,0,6},
     {0,0,2,6,4,4,5,0,0},
 };
+
+Points points;
+
 int hMap[xCount][yCount];
 
 void printMap(int Map[xCount][yCount])
