@@ -14,5 +14,6 @@ const int yCount = 9;
 #define CCLOG(format, ...)      printf(format, ##__VA_ARGS__)
 
 extern int Map[xCount][yCount];
+extern void printMap(int Map[xCount][yCount]);
 
 #endif /* Const_h */

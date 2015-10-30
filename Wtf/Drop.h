@@ -17,10 +17,9 @@ class Drop {
 private:
     Points _exitPoints;
     int _map[xCount][yCount];
-public:
-    Drop();
-    ~Drop() {}
     
+    
+private:
     void initExitList();
     void initPathValue();
     int getUpValue(int x, int y);
@@ -31,6 +30,9 @@ public:
     int findLeft(int x, int y);
     int findRight(int x, int y);
     Points findOneWay(int x, int y);
+public:
+    Drop();
+    ~Drop() {}
     
     void doDrop();
 };

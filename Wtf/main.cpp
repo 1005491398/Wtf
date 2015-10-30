@@ -14,6 +14,7 @@
 #include <cstdio>
 #include "Vec2.h"
 #include "Const.h"
+#include "Drop.h"
 
 using namespace std;
 
@@ -258,11 +259,13 @@ int main(int argc, char const *argv[])
     clock_t start, ends;
     
     start=clock();
-    threes();
-    printArray();
-    printClashs();
-    processClashs();
-    cout<<clashs.size()<<endl;
+//    threes();
+//    printArray();
+//    printClashs();
+//    processClashs();
+//    cout<<clashs.size()<<endl;
+    Drop drop;
+    drop.doDrop();
     ends=clock();
     cout << "Clock is :" << (ends-start)*1.0/1000 << endl;
     
